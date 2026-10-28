@@ -37,7 +37,19 @@ This project models a library using core object-oriented programming principles.
 
 ## Example Output
 ```
-[EDIT: paste a short sample of the program's real output here]
+=== Welcome to the Library Management System ===
+[INFO] Initialising library inventory...
+[SUCCESS] Added: 'Clean Code' by Robert C. Martin (ID: B001)
+[SUCCESS] Added: 'National Geographic - Oct 2026' (ID: M001)
+
+--- Current Library Catalog ---
+ID: B001 | Title: Clean Code | Type: Book | Status: Available
+ID: M001 | Title: National Geographic | Type: Magazine | Status: Available
+
+[ACTION] Borrowing item B001...
+[SUCCESS] 'Clean Code' successfully checked out.
+
+ID: B001 | Title: Clean Code | Type: Book | Status: Checked Out
 ```
 
 ## Possible Improvements
